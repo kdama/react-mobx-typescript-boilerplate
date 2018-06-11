@@ -25,6 +25,7 @@ const config: webpack.Configuration = {
     },
     hot: true,
     inline: true,
+    publicPath: "/",
     stats: "errors-only",
   },
   devtool: "cheap-module-eval-source-map",
